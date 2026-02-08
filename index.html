@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cloudinary 3D Sample</title>
+	<script src="https://dimensions-3d-viewer.cloudinary.com/1.0.16/all.js"></script>
+	<script src="https://dimensions-tag.cloudinary.com/0.0.105/all.js"></script>
+</head>
+<body>
+
+<label>3D Viewer (embedded using data attributes)</label>
+
+<div
+	id="three-d-viewer"
+	style="height: 400px"
+	data-d8s-type="3d"
+	data-d8s-id="shiba_yr4bel-7-2-2026">
+</div>
+
+<script>
+	const d8sApi = initDimensions({
+		cloudName: "dhkalydgz",
+		viewers: ["3D"],
+	});
+</script>
+
+</body>
+</html>
